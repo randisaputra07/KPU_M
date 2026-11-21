@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buku Tamu - Komisi Pemilihan Umum Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="randi_header">
+      <div class="randi_container">
+        <div id="randi_logo">
+          <img src="img/logo-kpu.png" alt="Logo KPU" />
+          <h1>KOMISI PEMILIHAN <br />UMUM MAHASISWA</h1>
+        </div>
+        <nav class="randi_nav">
+          <ul class="randi_menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang KPU-M</a></li>
+            <li><a href="visi-misi.html">Visi & Misi</a></li>
+            <li><a href="struktur.html">Struktur</a></li>
+            <li><a href="pemilu.html">Pemilu</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="buku-tamu.html" class="active">Buku Tamu</a></li>
+          </ul>
+          <div class="randi_hamburger" id="randi_hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="randi_page-header">
+      <div class="randi_container">
+        <h1>Buku Tamu</h1>
+        <p>Kirim pesan, saran, atau pertanyaan Anda kepada KPU</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="randi_container">
+      <div class="randi_content-section">
+        <p>
+          Kami sangat menghargai masukan dari masyarakat. Silakan isi form di
+          bawah ini untuk mengirimkan pesan, saran, atau pertanyaan Anda. Tim
+          kami akan merespons secepat mungkin.
+        </p>
+
+        <form id="randi_guest-form" class="randi_form">
+          <div class="randi_form-group">
+            <label for="randi_name">Nama Lengkap</label>
+            <input type="text" id="randi_name" name="name" required />
+          </div>
+
+          <div class="randi_form-group">
+            <label for="randi_email">Alamat Email</label>
+            <input type="email" id="randi_email" name="email" required />
+          </div>
+
+          <div class="randi_form-group">
+            <label for="randi_subject">Subjek</label>
+            <input type="text" id="randi_subject" name="subject" required />
+          </div>
+
+          <div class="randi_form-group">
+            <label for="randi_category">Kategori Pesan</label>
+            <select id="randi_category" name="category">
+              <option value="saran">Saran</option>
+              <option value="pertanyaan">Pertanyaan</option>
+              <option value="keluhan">Keluhan</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </div>
+
+          <div class="randi_form-group">
+            <label for="randi_message">Pesan</label>
+            <textarea id="randi_message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="randi_btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="randi_footer">
+      <div class="randi_container">
+        <div class="randi_footer-grid">
+          <div class="randi_footer-col">
+            <h3>Kontak KPU-M</h3>
+            <p>Gedung Ormawa Universitas Perjuangan Tasikmalaya</p>
+            <p>
+              Jl. Peta No.177, Kahuripan, Kec. Tawang, Tasikmalaya, Jawa Barat
+            </p>
+            <p>Telepon: (+62) 856 0183 7672</p>
+            <p>Email: kpumpusat@gmail.com</p>
+          </div>
+          <div class="randi_footer-col">
+            <h3>Menu Cepat</h3>
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="pemilu.html">Informasi Pemilu</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a href="buku-tamu.html">Buku Tamu</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="randi_footer-bottom">
+          <p>
+            &copy; 2025 Komisi Pemilihan Umum Mahasiswa(KPU-M). Semua Hak
+            Dilindungi.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
